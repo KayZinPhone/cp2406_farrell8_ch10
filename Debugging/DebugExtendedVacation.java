@@ -1,7 +1,11 @@
 public class DebugExtendedVacation extends DebugVacation
 {
-   public DebugVacation()
-   {
-      days = 30;
-   }
+  public static void main(String[]args)
+  {
+    DebugVacation obj = new DebugVacation();
+    System.out.println(obj.getDays());
+
+
+  }
+
 }
